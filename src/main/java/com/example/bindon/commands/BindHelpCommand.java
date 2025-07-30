@@ -28,13 +28,13 @@ public class BindHelpCommand {
                      String keys4 = "CAPSLOCK, SCROLLLOCK, NUMLOCK, PRINTSCREEN, PAUSE, MENU";
                     String keys5 = "KP_0–KP_9, KP_ADD, KP_SUBTRACT, KP_MULTIPLY, KP_DIVIDE, KP_ENTER, KP_DECIMAL";
 
-                    source.sendSystemMessage(Component.literal(DARK_GRAY + keys1));
-                    source.sendSystemMessage(Component.literal(DARK_GRAY + keys2));
-                    source.sendSystemMessage(Component.literal(DARK_GRAY + keys3));
-                    source.sendSystemMessage(Component.literal(DARK_GRAY + keys4));
-                    source.sendSystemMessage(Component.literal(DARK_GRAY + keys5));
+                    source.sendSystemMessage(Component.literal(GRAY + keys1));
+                    source.sendSystemMessage(Component.literal(GRAY + keys2));
+                    source.sendSystemMessage(Component.literal(GRAY + keys3));
+                    source.sendSystemMessage(Component.literal(GRAY + keys4));
+                    source.sendSystemMessage(Component.literal(GRAY + keys5));
 
-                    source.sendSystemMessage(Component.literal(GRAY + "example: /bindon f5 @a"));
+                    source.sendSystemMessage(Component.literal(GOLD + "example: /bindon f5 @a"));
                     return 1;
                 })));
 

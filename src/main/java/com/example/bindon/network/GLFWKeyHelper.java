@@ -10,22 +10,22 @@ public class GLFWKeyHelper {
     private static final Map<String, Integer> NAME_TO_KEY = new HashMap<>();
 
     static {
-        // Функциональные клавиши
+
         for (int i = 1; i <= 12; i++) {
             NAME_TO_KEY.put("f" + i, GLFW.GLFW_KEY_F1 + (i - 1));
         }
 
-        // Цифры
+
         for (int i = 0; i <= 9; i++) {
             NAME_TO_KEY.put(String.valueOf(i), GLFW.GLFW_KEY_0 + (i % 10));
         }
 
-        // Буквы
+
         for (char c = 'a'; c <= 'z'; c++) {
             NAME_TO_KEY.put(String.valueOf(c), GLFW.GLFW_KEY_A + (c - 'a'));
         }
 
-        // Прочие клавиши
+
         NAME_TO_KEY.put("space", GLFW.GLFW_KEY_SPACE);
         NAME_TO_KEY.put("enter", GLFW.GLFW_KEY_ENTER);
         NAME_TO_KEY.put("escape", GLFW.GLFW_KEY_ESCAPE);
@@ -46,7 +46,7 @@ public class GLFWKeyHelper {
         NAME_TO_KEY.put("lalt", GLFW.GLFW_KEY_LEFT_ALT);
         NAME_TO_KEY.put("ralt", GLFW.GLFW_KEY_RIGHT_ALT);
 
-        // Другие полезные
+
         NAME_TO_KEY.put("capslock", GLFW.GLFW_KEY_CAPS_LOCK);
         NAME_TO_KEY.put("scrolllock", GLFW.GLFW_KEY_SCROLL_LOCK);
         NAME_TO_KEY.put("numlock", GLFW.GLFW_KEY_NUM_LOCK);
@@ -54,7 +54,7 @@ public class GLFWKeyHelper {
         NAME_TO_KEY.put("pause", GLFW.GLFW_KEY_PAUSE);
         NAME_TO_KEY.put("menu", GLFW.GLFW_KEY_MENU);
 
-        // Клавиши на цифровой клавиатуре
+        // numpadik
         NAME_TO_KEY.put("kp_0", GLFW.GLFW_KEY_KP_0);
         NAME_TO_KEY.put("kp_1", GLFW.GLFW_KEY_KP_1);
         NAME_TO_KEY.put("kp_2", GLFW.GLFW_KEY_KP_2);

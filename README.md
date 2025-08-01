@@ -1,6 +1,6 @@
 # BindOn Mod – Forge 1.20.1
 
-![petpet-transparent](https://github.com/user-attachments/assets/ec84d897-ea97-4d03-8a7a-c4caf5a9a59a)
+<img width="300" height="300" alt="cb63c597-74e3-449b-a92f-95dd4b3493a1" src="https://github.com/user-attachments/assets/ec84d897-ea97-4d03-8a7a-c4caf5a9a59a" />
 
 The **BindOn** mod allows Minecraft servers to remotely simulate key presses on connected clients via commands.  
 For example, using `/bindon f5 @a` forces all players to switch their camera perspective.
